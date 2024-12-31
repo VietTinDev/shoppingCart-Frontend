@@ -1,0 +1,22 @@
+/* CategoryCard.css */
+
+.ant-card {
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ant-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.ant-card .ant-card-meta-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ant-card .ant-card-meta-description {
+    color: #4CAF50;
+    font-size: 14px;
+}

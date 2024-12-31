@@ -1,0 +1,20 @@
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.ant-pagination {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.ant-pagination-item-active {
+    background-color: #4caf50 !important;
+    border-color: #4caf50 !important;
+}
+
+.ant-pagination-item-active a {
+    color: #fff !important;
+}

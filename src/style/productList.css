@@ -1,0 +1,64 @@
+/* CategoryList.css */
+
+/* Container for the entire category list */
+.category-list {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Title of the category list */
+.category-list .ant-typography {
+    color: #333;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 15px;
+
+}
+
+/* List items styling */
+.category-list .ant-list-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Button for each category */
+.category-list .ant-btn-link {
+    font-size: 18px;
+    color: #1890ff;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+    padding: 8px 0;
+    display: block;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect for category buttons */
+.category-list .ant-btn-link:hover {
+    color: #fff;
+    background-color: #1890ff;
+    border-radius: 4px;
+}
+
+/* Error alert styling */
+.category-list .ant-alert {
+    margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .category-list {
+        padding: 15px;
+    }
+
+    .category-list .ant-typography {
+        font-size: 20px;
+    }
+
+    .category-list .ant-btn-link {
+        font-size: 16px;
+    }
+}

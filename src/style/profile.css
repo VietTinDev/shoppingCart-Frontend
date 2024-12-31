@@ -1,0 +1,36 @@
+/* Profile Card Styling */
+.profile-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card-title {
+    text-align: center;
+    color: #1890ff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.profile-card p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+    margin: 0;
+}
+
+.profile-card p span {
+    margin-left: 10px;
+    color: #333;
+    font-weight: normal;
+}
+
+

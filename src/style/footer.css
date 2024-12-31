@@ -1,0 +1,37 @@
+/* Footer container */
+.ant-layout-footer {
+    background-color: #001529;
+    color: white;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+/* Links in Footer */
+.ant-typography a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.ant-typography a:hover {
+    color: #1890ff;
+    text-decoration: underline;
+}
+
+/* Social media icons */
+.anticon {
+    color: white;
+    font-size: 24px;
+}
+
+.anticon:hover {
+    color: #1890ff;
+}
+
+/* Copyright text */
+.ant-typography {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}

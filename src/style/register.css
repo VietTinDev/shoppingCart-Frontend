@@ -1,0 +1,25 @@
+/* Add this to your CSS (e.g., register.css) */
+.register-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ant-form-item-label>label {
+    font-weight: bold;
+}
+
+.login-link a {
+    color: #1890ff !important;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+
+
+
